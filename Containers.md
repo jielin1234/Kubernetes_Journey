@@ -18,3 +18,4 @@ In a project, it would be required to use lot of different technologies(e.g. Web
 - Containers are completely isolated env, as in they can have their own processess or services, own networking interface, etc. except they shared the same OS system kernel
 - Setting up container env is hard as they are low level, this is where Docker come in and offer a high lvl tools and make it easy for end users.![[Pasted image 20240131153221.png]]
 - To understand better about how Docker works, learn on some [[basic concepts of OS]] first. 
+- Let say we have a system w/ Ubuntu OS with docker installed on it, Docker can run any flavor of OS on top of it as long they are based on the same kernel. Meaning docker can run a container based on another distribution like Debian, febian or Centos since it is only the softwares that make these OS different.
