@@ -1,4 +1,4 @@
-Why do we need Containers ?
+ **Why do we need Containers ?**
 
 In a project, it would be required to use lot of different technologies(e.g. Web server, MongoDB, Ansible) and it will have a lot of issues developing the application with all these different components)
 - Firstly, their compatitbility w/ the underlying OS. Have to ensure all these different services were compatible w/ the version of the OS we are planning to use.
@@ -13,3 +13,8 @@ In a project, it would be required to use lot of different technologies(e.g. Web
 - Containers will help with the compatibility issues. We can modify/change these components w/o affecting other components and even modify the underlying OS as required.
 - With Docker, we can run each component in a seperate container w/ its own libraries & own dependencies, all on the same VM and OS, but within seperate env or containers![[Pasted image 20240131152746.png]]
 - Just have to build the Docker configuration once and all developers can now get started with a simple Docker run command, regardless of what underling OS they run.
+
+**What are containers ?**
+- Containers are completely isolated env, as in they can have their own processess or services, own networking interface, etc. except they shared the same OS system kernel
+- Setting up container env is hard as they are low level, this is where Docker come in and offer a high lvl tools and make it easy for end users.![[Pasted image 20240131153221.png]]
+- To understand better about how Docker works, learn on some [[basic concepts of OS]] first. 
