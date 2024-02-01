@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Containers.md",
+                "file": "Container Orchestration.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Container Orchestration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Container Orchestration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Container Orchestration.md"
+              }
             }
           }
         ]
@@ -158,9 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "747bb324b3fd88ea",
+  "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
     "Containers.md",
+    "Container Orchestration.md",
     "K8S Overview.md",
     "README.md",
     "Pasted image 20240131154231.png",

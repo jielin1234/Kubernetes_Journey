@@ -33,5 +33,5 @@ In a project, alot of different technologies are required(e.g. Web server, Mongo
 	- Since the image are already working when the developer built it and the ops are not modifying it, it will continue to work the same way when deploying in production.
 
 - Now we have our application packaged into a Docker Container, how do we run it in production ? What if the application relies on other containers such as db or messaging services or backend services ? What if number of users increase/decrease and we need to scale the application ?
-	- We will need an underlying platform w/ a set of resources and capabilities. The platform needs to orchestrate the connectivity between the containers and auto scale up/down based on the load. The whole process of auto deploying and manging containers is called Container Orchestration
-- Next, learn on Container orchestration 
+	- We will need an underlying platform w/ a set of resources and capabilities. The platform needs to orchestrate the connectivity between the containers and auto scale up/down based on the load. The whole process of auto deploying and manging containers is called Container Orchestration. Next, lets hop on to [[Container Orchestration]]
+	- 
