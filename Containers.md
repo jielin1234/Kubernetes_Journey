@@ -31,3 +31,6 @@ In a project, alot of different technologies are required(e.g. Web server, Mongo
 	- With Docker, the guide that the developers built previously to set up can now easily be put together in the form of a Docker file to create an image for the applications.
 	- The image can now run on any container platform and is guarantee to run the same way everywhere. So operations team can simply use the image to deploy the application. 
 	- Since the image are already working when the developer built it and the ops are not modifying it, it will continue to work the same way when deploying in production.
+
+- Now we have our application packaged into a Docker Container, how do we run it in production ? What if the application relies on other containers such as db or messaging serv
+- Next, learn on Container orchestration 
