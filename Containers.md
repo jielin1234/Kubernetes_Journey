@@ -25,6 +25,9 @@ In a project, alot of different technologies are required(e.g. Web server, Mongo
 - Image is a package/template, use to create one or more containers.
 - Containers are running instances of images that are isolated and have their own env and set of processes. 
 
-**Advantage** 
+**Advantage**s of Containers
 - New developers can get started with a simple Docker run command, regardless of the underlying OS they run instead of running hundreds of commands and following a list of instructions to setup.
-- Operation used to had to follow the set of instructions given by the developersuch as how the host must be set up, what prerequisites are to be installed, how to configure, etc.
+- Operation used to had to follow the set of instructions given by the developers such as how the host must be set up, what prerequisites are to be installed, how to configure, etc. Since the ops team did not develop the app, they will hit issue when setting up and had to work w/ developer to resolve it.
+	- With Docker, the guide that the developers built previously to set up can now easily be put together in the form of a Docker file to create an image for the applications.
+	- The image can now run on any container platform and is guarantee to run the same way everywhere. So operations team can simply use the image to deploy the application. 
+	- Since the image are already working when the developer built it and the ops are not modifying it, it will continue to work the same way when deploying in production.

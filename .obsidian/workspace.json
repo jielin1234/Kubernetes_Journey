@@ -101,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Containers.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,11 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dda81dc6b4070b2",
+  "active": "747bb324b3fd88ea",
   "lastOpenFiles": [
+    "Containers.md",
     "K8S Overview.md",
     "README.md",
-    "Containers.md",
     "Pasted image 20240131154231.png",
     "basic concepts of OS.md",
     "Pasted image 20240131153447.png",
