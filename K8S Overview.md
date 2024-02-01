@@ -1,2 +1,2 @@
-- First is to understand [[Containers]] + [[Orchestration]]
-
+- First is to understand [[Containers]] + [[Container Orchestration]]
+- 
