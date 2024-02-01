@@ -165,9 +165,10 @@
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
     "Containers.md",
-    "basic concepts of OS.md",
-    "Container Orchestration.md",
+    "Architecture.md",
     "K8S Overview.md",
+    "Container Orchestration.md",
+    "basic concepts of OS.md",
     "README.md",
     "Pasted image 20240131154231.png",
     "Pasted image 20240131153447.png",
