@@ -32,5 +32,6 @@ In a project, alot of different technologies are required(e.g. Web server, Mongo
 	- The image can now run on any container platform and is guarantee to run the same way everywhere. So operations team can simply use the image to deploy the application. 
 	- Since the image are already working when the developer built it and the ops are not modifying it, it will continue to work the same way when deploying in production.
 
-- Now we have our application packaged into a Docker Container, how do we run it in production ? What if the application relies on other containers such as db or messaging serv
+- Now we have our application packaged into a Docker Container, how do we run it in production ? What if the application relies on other containers such as db or messaging services or backend services ? What if number of users increase/decrease and we need to scale the application ?
+	- We will need an underlying platform w/ a set of resources and capabilities. The platform needs to orchestrrate the connecrtivty between the containers and auto scale up/down based on the load.
 - Next, learn on Container orchestration 
