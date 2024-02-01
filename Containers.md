@@ -22,4 +22,9 @@ In a project, alot of different technologies are required(e.g. Web server, Mongo
 - Docker is not mean to run different OS and kernel on same hardware like hypervisors. Main purpose is to containerise application and ship them and run them.![[Pasted image 20240131154231.png]]
 
 **Container VS Image**
-- Image is a package/template, use to create 
+- Image is a package/template, use to create one or more containers.
+- Containers are running instances of images that are isolated and have their own env and set of processes. 
+
+**Advantage** 
+- New developers can get started with a simple Docker run command, regardless of the underlying OS they run instead of running hundreds of commands and following a list of instructions to setup.
+- Operation used to had to follow the set of instructions given by the developersuch as how the host must be set up, what prerequisites are to be installed, how to configure, etc.
