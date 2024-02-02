@@ -9,4 +9,6 @@
 	- When 1 container die, the other also died since in the same pod
 	- 2 containers can communicate directly w/ each other by referring to each other as local host since they sahre the same network space
 	- they can share the same storage space as well
+
+- When a pod is created, we can only access it internally from the node, will have to configure such that external user can access
 	
