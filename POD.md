@@ -1,0 +1,5 @@
+- K8S does not deploy containers directly on the worker nodes.
+- The containers are encapsulated into a K8S object known as Pods.
+- Pod is a single instance of an application,
+- it is the smallest object we can create in K8S
+- 
