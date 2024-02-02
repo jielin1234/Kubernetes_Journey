@@ -6,7 +6,7 @@
       {
         "id": "c01c34223819dfba",
         "type": "tabs",
-        "dimension": 74.35897435897436,
+        "dimension": 81.07852412488174,
         "children": [
           {
             "id": "7dda81dc6b4070b2",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "61c3630aab03434e",
         "type": "tabs",
-        "dimension": 25.64102564102564,
+        "dimension": 18.92147587511826,
         "children": [
           {
             "id": "747bb324b3fd88ea",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8S Overview.md"
+                "file": "Architecture.md"
               }
             }
           }
@@ -164,9 +164,10 @@
   },
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
+    "Kubectl.md",
+    "K8S Overview.md",
     "Containers.md",
     "Architecture.md",
-    "K8S Overview.md",
     "Container Orchestration.md",
     "basic concepts of OS.md",
     "README.md",
