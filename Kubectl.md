@@ -10,3 +10,5 @@ To get the application image, add the image name using the image parameter. The 
 <kubectl get pods/nodes>
 To see the lists of pods/nodes available in our cluster.
 
+<kubectl cluster-info>
+To see the cluster
