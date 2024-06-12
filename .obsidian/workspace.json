@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture.md",
+                "file": "Kubectl.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture.md",
+                "file": "Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture.md",
+                "file": "Kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture.md"
+                "file": "Kubectl.md"
               }
             }
           }
@@ -165,10 +165,10 @@
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
     "K8S Overview.md",
-    "Containers.md",
-    "Container Orchestration.md",
-    "basic concepts of OS.md",
     "Architecture.md",
+    "Container Orchestration.md",
+    "Containers.md",
+    "basic concepts of OS.md",
     "Kubectl.md",
     "POD.md",
     "README.md",

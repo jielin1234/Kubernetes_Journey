@@ -7,6 +7,6 @@ It create a pod automatically and deploy an instance of Nginx docker image.
 <kubectl run nginx --image nginx>
 To get the application image, add the image name using the image parameter. The image is downloaded from Docker Hub repo.
 
-<kubectl get pods>
-To see the lists of pods available in our cluster.
+<kubectl get pods/nodes>
+To see the lists of pods/nodes available in our cluster.
 

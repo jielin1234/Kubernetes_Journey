@@ -15,8 +15,11 @@
 - Components
 	- When install K8S on a system, it is actually installing the following components:
 		- API server: Acts as front end for K8S. The users, device, CLI all talk to the API to interact w/ the K8S cluster.
-		- etcd: Reliable key value store to store all data used to manage the cluster. Ensure that no conflicts btwn the mas
+		- etcd: Reliable key value store to store all data used to manage the cluster. Ensure that no conflicts btwn the masters.
 		- kubelet: The agent that runs on each node in the cluster. Reponsible to make sure the container are running on the nodes as expected.
 		- Container Runtime: The underlying sw used to run containers (e.g. Docker)
-		- Controller: The brain behind orchestration. Reponsible for noticing and reponsding when nodes or endpoint goes down. It make decision to bring up new containers in such cases.
-		- Schedular: Distribute works/containers across multiple nodes. Look for newly created containers and assign them to nodes.
+		- Controller: The brain behind orchestration. Reponsible for noticing and responding when nodes or endpoint goes down. It make decision to bring up new containers in such cases.
+		- Scheduler: Distribute works/containers across multiple nodes. Look for newly created containers and assign them to nodes.
+- How to differentiate Master & Worker nodes?
+	- Master: Contains kube apiserver, etcd, controller, scheduler
+	- Worker: Contains kubelet, container runtime
