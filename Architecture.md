@@ -1,5 +1,5 @@
 - Node
-	- Node is a machine, phsyical or virtual on which K8S is installed
+	- Node is a machine, physical or virtual on which K8S is installed
 	- Node is a worker machine and that is where containers will be launched by K8S
 	- Need to have more than 1 node, if only 1 node and it fails, then the app will go down
 	- Worker nodes contains kubelet agent, to interact with a master to provide health info and carry out actions requested by the Master. 
@@ -15,7 +15,7 @@
 - Components
 	- When install K8S on a system, it is actually installing the following components:
 		- API server: Acts as front end for K8S. The users, device, CLI all talk to the API to interact w/ the K8S cluster.
-		- etcd: Reliable key value store to store all data used to manage the cluster
+		- etcd: Reliable key value store to store all data used to manage the cluster. Ensure that no conflicts btwn the mas
 		- kubelet: The agent that runs on each node in the cluster. Reponsible to make sure the container are running on the nodes as expected.
 		- Container Runtime: The underlying sw used to run containers (e.g. Docker)
 		- Controller: The brain behind orchestration. Reponsible for noticing and reponsding when nodes or endpoint goes down. It make decision to bring up new containers in such cases.
