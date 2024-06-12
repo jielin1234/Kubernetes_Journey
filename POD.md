@@ -1,5 +1,6 @@
 - K8S does not deploy containers directly on the worker nodes.
 - The containers are encapsulated into a K8S object known as Pods.
+	- [[Why so?]] 
 - Pod is a single instance of an application,
 - it is the smallest object we can create in K8S
 - Pod usually have a 1 to 1 relationship w/ containers running the application.
@@ -11,4 +12,4 @@
 	- they can share the same storage space as well
 
 - When a pod is created, we can only access it internally from the node, will have to configure such that external user can access
-	
+
