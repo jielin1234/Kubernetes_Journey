@@ -22,3 +22,7 @@ metadata:
   labels:
 	  app: myapp
 	  type: front=end
+specs:
+  containers:
+    - name: nginx-container
+      image: nginx
