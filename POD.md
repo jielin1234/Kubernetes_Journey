@@ -13,3 +13,12 @@
 
 - When a pod is created, we can only access it internally from the node, will have to configure such that external user can access
 
+
+POD YAML:
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+	  app: myapp
+	  type: front=end

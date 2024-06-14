@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "POD.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "POD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8S Overview.md",
+                "file": "POD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "K8S Overview.md"
+                "file": "POD.md"
               }
             }
           }
@@ -164,10 +164,11 @@
   },
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
-    "Why so?.md",
-    "POD.md",
-    "Containers.md",
+    "Pasted image 20240614152958.png",
     "K8S Overview.md",
+    "POD.md",
+    "Why so?.md",
+    "Containers.md",
     "Kubectl.md",
     "Architecture.md",
     "Container Orchestration.md",
