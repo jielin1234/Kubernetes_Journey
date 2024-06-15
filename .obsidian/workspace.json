@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POD.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "POD.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "POD.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POD.md"
+                "file": "Replications controller & ReplicaSets.md"
               }
             }
           }
@@ -164,15 +164,16 @@
   },
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
-    "Pasted image 20240614152958.png",
-    "K8S Overview.md",
-    "POD.md",
-    "Why so?.md",
-    "Containers.md",
-    "Kubectl.md",
     "Architecture.md",
+    "K8S Overview.md",
+    "Containers.md",
     "Container Orchestration.md",
     "basic concepts of OS.md",
+    "Replications controller & ReplicaSets.md",
+    "Kubectl.md",
+    "POD.md",
+    "Pasted image 20240614152958.png",
+    "Why so?.md",
     "README.md",
     "Pasted image 20240131154231.png",
     "Pasted image 20240131153447.png",
