@@ -8,13 +8,16 @@
 - Replication controller is the older technology and Replicaset has replaced it.
 
 YAML:
-apiVersion: v1
-kind: replicationCrontoller
-metadata:
-spec:
-   template:
+apiVersion: v1                                  apiVersion: apps/v1
+kind: replicationCrontoller              kind: ReplicaSet
+metadata:                                         metadata:
+spec:                                                 spec:
+   template:                                       template:
     
-    (pod definitation)
+    (pod definitation)        (pod definitation) 
 
-replicas: 3
+replicas: 3                                          replicas: 3
+                            selector:
+                               matchLabels:
+                                 type: front-end
 
