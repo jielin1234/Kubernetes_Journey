@@ -6,4 +6,15 @@
 - Also, it help to create mutiple pods to share the load across them (load balancing & scaling)
 - It can also deploy additional pods across other nodes in the cluster if demand increases.
 - Replication controller is the older technology and Replicaset has replaced it.
-- 
+
+YAML:
+apiVersion: v1
+kind: replicationCrontoller
+metadata:
+spec:
+   template:
+    
+    (pod definitation)
+
+replicas: 3
+
