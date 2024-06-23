@@ -21,3 +21,6 @@ replicas: 3                                          replicas: 3
                                matchLabels:
                                  type: front-end
 
+
+What is selector for in ReplicaSet ?
+Replicas can also manage 
