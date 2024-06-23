@@ -5,4 +5,5 @@ Replicaset can be use to monitor existing parts if the pods are created already.
 
 So how does the replicaset know what pods to monitor ? There would be 100+ of pods in the cluster running different applications. So labeling the pods during creation comes in handy, it can be use as a filter to know which pods to monitor.
 
-Ques: So do it still require to provide a template section in the replicaset specification if the number of pods r
+Ques: So do it still require to provide a template section in the replicaset specification if we are not expecting it to create new pod on deployment ?
+Still have to, in case if one of the pods fail in the future, it will still need to rely on the definition file.

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Why do we need Labels and Selectors ?.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Why do we need Labels and Selectors ?.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Why do we need Labels and Selectors ?.md",
+                "file": "Replications controller & ReplicaSets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Why do we need Labels and Selectors ?.md"
+                "file": "Replications controller & ReplicaSets.md"
               }
             }
           }
@@ -164,8 +164,8 @@
   },
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
-    "Replications controller & ReplicaSets.md",
     "Why do we need Labels and Selectors ?.md",
+    "Replications controller & ReplicaSets.md",
     "K8S Overview.md",
     "Container Orchestration.md",
     "Containers.md",

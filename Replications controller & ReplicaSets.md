@@ -22,9 +22,14 @@ replicas: 3                                          replicas: 3
                                  type: front-end
 
 
-What is selector for in ReplicaSet ?
+- What is selector for in ReplicaSet ?
 Main difference in Replicaset and ReplicationController is selector.
 Replicas can also manage pod that are not created as part of the replica set creation
 e.g. there are pods created before the creation of replicaset that matches the labels specified in the selector, it will also take those pods into consideration when creating.
 
+- How to update our replicaset to scale it ?
+There are a few ways.
+1. Change the replicaset number and run kubectl replace -f replicaset-definition.yml
+2. Run kubectl scale --replicas=6 -f replicaset-definition.yml
+3.  ...
 Next, why do we need [[Why do we need Labels and Selectors ?]]
