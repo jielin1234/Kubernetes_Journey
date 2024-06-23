@@ -165,8 +165,8 @@
   "active": "7dda81dc6b4070b2",
   "lastOpenFiles": [
     "Replications controller & ReplicaSets.md",
-    "K8S Overview.md",
     "Why do we need Labels and Selectors ?.md",
+    "K8S Overview.md",
     "Container Orchestration.md",
     "Containers.md",
     "basic concepts of OS.md",
