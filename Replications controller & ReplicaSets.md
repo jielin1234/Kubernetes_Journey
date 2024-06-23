@@ -9,7 +9,7 @@
 
 YAML:
 apiVersion: v1                                  apiVersion: apps/v1
-kind: replicationCrontoller              kind: ReplicaSet
+kind: replicationController             kind: ReplicaSet
 metadata:                                         metadata:
 spec:                                                 spec:
    template:                                       template:
@@ -23,4 +23,8 @@ replicas: 3                                          replicas: 3
 
 
 What is selector for in ReplicaSet ?
-Replicas can also manage 
+Main difference in Replicaset and ReplicationController is selector.
+Replicas can also manage pod that are not created as part of the replica set creation
+e.g. there are pods created before the creation of replicaset that matches the labels specified in the selector, it will also take those pods into consideration when creating.
+
+Next, why do we need [[Why do we need Labels and Selectors ?]]

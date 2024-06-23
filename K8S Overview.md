@@ -3,7 +3,7 @@
 - Learn about [[Kubectl]] tools
 - Learn about [[POD]]
 - [[Replications controller & ReplicaSets]]
-- 
+- [[Why do we need Labels and Selectors ?]]
 
 
 
